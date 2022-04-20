@@ -1,7 +1,7 @@
 {
-	"name" : "paubox/paubox-php",
-	"description" : "A PHP package for the Paubox Transactional Email API",
-	"homepage" : "https://github.com/Paubox/paubox-php",
+	"name" : "nawazm92/paubox-php",
+	"description" : "A PHP package for the Paubox Transactional Email API (Fork of original paubox-php SDK)",
+	"homepage" : "https://github.com/nawazm92/paubox",
 	"license" : "Apache-2.0",
 	"require" : {
 		"php": "^7.3",
