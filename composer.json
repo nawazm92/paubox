@@ -4,8 +4,9 @@
 	"homepage" : "https://github.com/Paubox/paubox-php",
 	"license" : "Apache-2.0",
 	"require" : {
+		"php": "^7.3",
 		"nategood/httpful" : "*",
-		"vlucas/phpdotenv" : "3.4.0"
+		"vlucas/phpdotenv" : "^5.4.1"
 	},
 	"require-dev" : {
 		"phpunit/phpunit" : "^5.7.9"

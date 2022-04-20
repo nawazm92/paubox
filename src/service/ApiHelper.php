@@ -3,7 +3,6 @@ namespace Paubox\Service;
 
 class ApiHelper
 {
-
     function callToAPIByPost($uri, $auth_header, $request_body)
     {
         $header['accept'] = "application/json";
@@ -23,6 +22,7 @@ class ApiHelper
     function callToAPIByGet($uri, $auth_header)
     {
         $header['accept'] = "application/json";
+        
         if (null != $auth_header) {
             $header['Authorization'] = $auth_header;
         }
@@ -34,5 +34,3 @@ class ApiHelper
         return $response->raw_body;
     }
 }
-
-?>

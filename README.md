@@ -1,3 +1,7 @@
+#### This is fork of Paubox php SDK, to make it compatible with Laravel version 8
+
+------------
+
 <img src="https://avatars.githubusercontent.com/u/22528478?s=200&v=4" alt="Paubox" width="150px">
 
 # Paubox PHP
@@ -19,7 +23,7 @@ The API wrapper also allows you to construct and send messages.
 Using composer:
 
 ```bash
-$ composer require paubox/paubox-php
+$ composer require nawazm92/paubox-php
 ```
 
 ### Getting Paubox API Credentials
